@@ -1,37 +1,41 @@
-# Retail Price Elasticity and Promotional Impact Analysis
+# Retail Price Elasticity & Promotion Impact Analysis
 
-## Project Overview
-This project analyses how pricing and promotional strategies influence consumer demand in retail markets. Using SQL data extraction and regression modelling in Python, the analysis estimates price elasticity and evaluates how promotions affect purchasing behaviour and revenue.
+This project analyses how pricing and promotional strategies influence consumer demand in retail markets using transaction-level sales data.
 
-## Objective
-The goal of this project is to identify how sensitive consumer demand is to price changes and to generate insights that can inform pricing strategy and promotional planning.
+The goal is to estimate price elasticity, forecast demand and simulate pricing scenarios to support data-driven pricing decisions.
 
-## Dataset
-The dataset contains retail transaction and pricing information including:
-- product prices
-- promotional discounts
-- transaction volume
-- revenue outcomes
+## Key Results
 
-A sample dataset is included for demonstration purposes.
+- Demand is **inelastic within ±10% price changes**
+- A **+10% price increase increases margin by 25–53%**
+- Category differences drive pricing strategy more than store tier
+- Promotions increase sales but deeper discounts reduce margin efficiency
 
-## Methods
-- Data extraction and cleaning using SQL
-- Exploratory data analysis in Python
-- Regression modelling to estimate price elasticity
-- Interpretation of demand sensitivity and revenue impact
+## Tools
+Python  
+Pandas  
+Statsmodels  
+XGBoost  
+SHAP  
 
-## Key Insights
-- Identified products with high demand sensitivity to price changes
-- Observed measurable uplift in sales during promotional periods
-- Generated recommendations on pricing strategy and promotion timing
+## Project Workflow
 
-## Tools Used
-- Python
-- SQL
-- Pandas
-- Scikit-learn
-- Jupyter Notebook
+1. Data preparation and quality checks
+2. Exploratory price and promotion analysis
+3. Price elasticity estimation
+4. Demand forecasting
+5. Model explainability
+6. Pricing scenario simulation
+7. Decision table for pricing strategy
+
+## Example Results
+
+### Price Elasticity by Category
+![Elasticity](fig_elasticities.png)
+
+### Pricing Scenario Simulation
+![Scenario](fig_all_segments_delta10.png)
+
 
 ## Author
 Thaw Nadi Myint Oo  
