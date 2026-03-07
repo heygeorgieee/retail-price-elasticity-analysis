@@ -28,14 +28,6 @@ SHAP
 6. Pricing scenario simulation
 7. Decision table for pricing strategy
 
-## Example Results
-
-### Price Elasticity by Category
-![Elasticity](fig_elasticities.png)
-
-### Pricing Scenario Simulation
-![Scenario](fig_all_segments_delta10.png)
-
 
 ## Author
 Thaw Nadi Myint Oo  
